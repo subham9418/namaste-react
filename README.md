@@ -24,3 +24,7 @@
 - Different dev and prod bundles
 - dev: npx parcel index.html
 - prod: npx parcel build index.html
+
+# React createElement
+
+when we do React.createElement, it creates an object but when we render that to DOM, it becomes HTML element
