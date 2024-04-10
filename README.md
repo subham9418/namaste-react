@@ -28,3 +28,9 @@
 # React createElement
 
 when we do React.createElement, it creates an object but when we render that to DOM, it becomes HTML element
+
+# JSX
+
+JSX is a HTML or XML like syntax
+JSX is transpiled before it reaches the JS Engine by parcel (Babel)
+JSX => React.createElement => ReactElemet(JS object) => HTML Element(render)
