@@ -34,3 +34,36 @@ when we do React.createElement, it creates an object but when we render that to 
 JSX is a HTML or XML like syntax
 JSX is transpiled before it reaches the JS Engine by parcel (Babel)
 JSX => React.createElement => ReactElemet(JS object) => HTML Element(render)
+
+# React element
+
+```
+const heading = (
+  <h1 className="heading" tabIndex="5">
+    Namaste React using JSX 🚀
+  </h1>
+);
+
+Rendering:
+root.render(heading);
+```
+
+# React component
+- Class Based Component - OLD
+- Functional Component - NEW
+
+# Functional Component
+
+Functional Component is normal JS function which returns some JSX
+
+```
+const HeadingComponenet = () => (
+  <div>
+    <h1 className="heading">Namaste React Functional component</h1>
+  </div>
+)
+
+Rendering:
+root.render(<HeadingComponenet/>);
+
+```
